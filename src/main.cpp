@@ -21,7 +21,7 @@ int main()
     {
         auto start_time = high_resolution_clock::now();
 
-        for (size_t u = 0; u < 10000; u++)
+        for (size_t u = 0; u < 1000; u++)
             add_vertex(graph);
     
         for (auto u : make_iterator_range(vertices(graph)))
